@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url("border-from-blue-stationery_23-2147851957.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+}
+
+h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h4{
+    font-style: italic;
+}
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+img{
+    border: solid black 1px;
+}
+
+.school, .high-school {
+    background-color:rgb(215, 250, 231);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.details img {
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.contact {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.contact p {
+    margin: 8px 0;
+    color: #555;
+}
+  
+.contact a {
+    color: #007BFF;
+    text-decoration: none;
+}
+  
+.contact a:hover {
+    text-decoration: underline;
+}
+.highschool-contact {
+    background-color: white;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.highschool-contact p {
+    margin: 8px 0;
+    color: #555;
+}
+  
+.highschool-contact a {
+    color: #007BFF;
+    text-decoration: none;
+}
+  
+.highschool-contact a:hover {
+    text-decoration: underline;
+}
